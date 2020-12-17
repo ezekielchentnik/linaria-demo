@@ -4,7 +4,8 @@
   "description": "Linaria Demo",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --hot --inline"
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --production"
   },
   "dependencies": {
     "react": "^16.5.2",
